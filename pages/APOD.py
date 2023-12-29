@@ -21,6 +21,7 @@ def get_pic():
     st.image(image)
     st.write(desc)
 
+
 st.title(body="Astronomical Picture of The Day")
 
 st.button(label="Fetch", on_click=get_pic,use_container_width=True)
